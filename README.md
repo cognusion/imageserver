@@ -13,6 +13,8 @@ Was written by [Pierre Durand](https://github.com/pierrre/) but abandoned. I pla
 - Convert (JPEG, GIF (animated), PNG , BMP, TIFF, ...)
 - Cache ([groupcache](https://github.com/golang/groupcache), [Redis](https://github.com/garyburd/redigo), [Memcache](https://github.com/bradfitz/gomemcache), in memory)
 - Gamma correction
+- HMAC URL Signer/Verifier
+- AWS S3 Source
 - Fully modular
 
 ## Examples
