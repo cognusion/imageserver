@@ -2,11 +2,12 @@
 package groupcache
 
 import (
+	"context"
 	"fmt"
 
-	"github.com/golang/groupcache"
 	"github.com/cognusion/imageserver"
 	imageserver_cache "github.com/cognusion/imageserver/cache"
+	"github.com/golang/groupcache"
 )
 
 // NewServer is a helper to create a new groupcache Server.
@@ -75,5 +76,6 @@ func (gt *Getter) Get(ctx groupcache.Context, key string, dest groupcache.Sink) 
 
 // Context is a groupcache.Context implementation used by Getter.
 type Context struct {
+	context.Context
 	Params imageserver.Params
 }

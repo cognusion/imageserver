@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/groupcache"
-	"github.com/pierrre/compare"
 	"github.com/cognusion/imageserver"
 	imageserver_cache "github.com/cognusion/imageserver/cache"
 	imageserver_source "github.com/cognusion/imageserver/source"
 	"github.com/cognusion/imageserver/testdata"
+	"github.com/golang/groupcache"
+	"github.com/pierrre/compare"
 )
 
 const (
@@ -120,7 +120,7 @@ func TestGetterErrorContextType(t *testing.T) {
 			return testdata.Medium, nil
 		}),
 	}
-	err := gt.Get("invalid", "foo", dest)
+	err := gt.Get(&Context{}, "foo", dest)
 	if err == nil {
 		t.Fatal("no error")
 	}
