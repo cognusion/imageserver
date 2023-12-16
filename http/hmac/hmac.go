@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 // Error constants retured by various functions.

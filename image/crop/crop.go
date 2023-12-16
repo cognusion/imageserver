@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 const param = "crop"

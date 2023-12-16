@@ -3,9 +3,9 @@ package nfntresize
 import (
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/cognusion/imageserver"
+	imageserver_image "github.com/cognusion/imageserver/image"
+	"github.com/cognusion/imageserver/testdata"
 )
 
 func BenchmarkSize(b *testing.B) {

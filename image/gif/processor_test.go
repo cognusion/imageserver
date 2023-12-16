@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/pierrre/compare"
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
+	"github.com/cognusion/imageserver"
+	imageserver_image "github.com/cognusion/imageserver/image"
 )
 
 var _ Processor = &SimpleProcessor{}

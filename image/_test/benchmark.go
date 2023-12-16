@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
+	"github.com/cognusion/imageserver"
+	imageserver_image "github.com/cognusion/imageserver/image"
 )
 
 // BenchmarkEncoder is a helper to benchmark imageserver/image.Encoder.

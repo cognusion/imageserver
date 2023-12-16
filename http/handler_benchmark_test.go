@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/cognusion/imageserver"
+	"github.com/cognusion/imageserver/testdata"
 )
 
 func BenchmarkHandler(b *testing.B) {

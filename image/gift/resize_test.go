@@ -4,10 +4,10 @@ import (
 	"testing"
 
 	"github.com/disintegration/gift"
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	imageserver_testdata "github.com/pierrre/imageserver/testdata"
+	"github.com/cognusion/imageserver"
+	imageserver_image "github.com/cognusion/imageserver/image"
+	_ "github.com/cognusion/imageserver/image/jpeg"
+	imageserver_testdata "github.com/cognusion/imageserver/testdata"
 )
 
 var _ imageserver_image.Processor = &ResizeProcessor{}

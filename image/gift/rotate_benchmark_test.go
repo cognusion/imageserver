@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/cognusion/imageserver"
+	imageserver_image "github.com/cognusion/imageserver/image"
+	"github.com/cognusion/imageserver/testdata"
 )
 
 func BenchmarkRotateProcessorRotation(b *testing.B) {

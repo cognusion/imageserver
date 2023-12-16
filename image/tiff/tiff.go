@@ -5,8 +5,8 @@ import (
 	"image"
 	"io"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
+	"github.com/cognusion/imageserver"
+	imageserver_image "github.com/cognusion/imageserver/image"
 	"golang.org/x/image/tiff"
 )
 

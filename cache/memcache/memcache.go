@@ -3,7 +3,7 @@ package memcache
 
 import (
 	memcache_impl "github.com/bradfitz/gomemcache/memcache"
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 // Cache is a Memcache imageserver/cache.Cache implementation.

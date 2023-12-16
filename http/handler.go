@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 // Handler is a net/http.Handler implementation that wraps a imageserver.Server.

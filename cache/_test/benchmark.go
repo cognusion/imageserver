@@ -3,8 +3,8 @@ package _test
 import (
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
+	"github.com/cognusion/imageserver"
+	imageserver_cache "github.com/cognusion/imageserver/cache"
 )
 
 // BenchmarkGet is a helper to benchmark imageserver/cache.Cache.Get().

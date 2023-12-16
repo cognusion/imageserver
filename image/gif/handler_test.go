@@ -6,8 +6,8 @@ import (
 	"image/gif"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/cognusion/imageserver"
+	"github.com/cognusion/imageserver/testdata"
 )
 
 var _ imageserver.Handler = &Handler{}

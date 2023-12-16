@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/golang/groupcache"
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
+	"github.com/cognusion/imageserver"
+	imageserver_cache "github.com/cognusion/imageserver/cache"
 )
 
 // NewServer is a helper to create a new groupcache Server.

@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/cognusion/imageserver"
+	imageserver_cache "github.com/cognusion/imageserver/cache"
+	"github.com/cognusion/imageserver/testdata"
 )
 
 func BenchmarkServerSize(b *testing.B) {

@@ -4,8 +4,8 @@ package image
 import (
 	"net/http"
 
-	"github.com/pierrre/imageserver"
-	imageserver_http "github.com/pierrre/imageserver/http"
+	"github.com/cognusion/imageserver"
+	imageserver_http "github.com/cognusion/imageserver/http"
 )
 
 // FormatParser is a imageserver/http.Parser implementation for imageserver/image.

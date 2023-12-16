@@ -9,8 +9,8 @@ import (
 	"unsafe"
 
 	"github.com/pierrre/compare"
-	. "github.com/pierrre/imageserver"
-	"github.com/pierrre/imageserver/testdata"
+	. "github.com/cognusion/imageserver"
+	"github.com/cognusion/imageserver/testdata"
 )
 
 var _ encoding.BinaryMarshaler = new(Image)

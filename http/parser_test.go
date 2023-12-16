@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_source "github.com/pierrre/imageserver/source"
+	"github.com/cognusion/imageserver"
+	imageserver_source "github.com/cognusion/imageserver/source"
 )
 
 var _ Parser = ListParser{}

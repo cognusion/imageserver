@@ -3,7 +3,7 @@ package image
 import (
 	"image"
 
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 // Processor processes a Go Image.

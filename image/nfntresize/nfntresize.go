@@ -6,7 +6,7 @@ import (
 	"image"
 
 	"github.com/nfnt/resize"
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 const (

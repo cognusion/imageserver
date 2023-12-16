@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/pierrre/imageserver"
-	imageserver_http "github.com/pierrre/imageserver/http"
+	"github.com/cognusion/imageserver"
+	imageserver_http "github.com/cognusion/imageserver/http"
 )
 
 const (

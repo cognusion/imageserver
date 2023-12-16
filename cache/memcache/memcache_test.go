@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	memcache_impl "github.com/bradfitz/gomemcache/memcache"
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
-	cachetest "github.com/pierrre/imageserver/cache/_test"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/cognusion/imageserver"
+	imageserver_cache "github.com/cognusion/imageserver/cache"
+	cachetest "github.com/cognusion/imageserver/cache/_test"
+	"github.com/cognusion/imageserver/testdata"
 )
 
 var _ imageserver_cache.Cache = &Cache{}

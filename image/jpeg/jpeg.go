@@ -6,8 +6,8 @@ import (
 	"image/jpeg"
 	"io"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
+	"github.com/cognusion/imageserver"
+	imageserver_image "github.com/cognusion/imageserver/image"
 )
 
 // Encoder is a JPEG imageserver/image.Encoder implementation.

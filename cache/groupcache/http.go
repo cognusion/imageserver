@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	"github.com/golang/groupcache"
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 // HTTPPoolContextHeader is the header used to store the Context in HTTP requests.

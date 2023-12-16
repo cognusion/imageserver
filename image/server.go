@@ -1,7 +1,7 @@
 package image
 
 import (
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 // Server is a imageserver.Server implementation that gets the Image from a Provider.

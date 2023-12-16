@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	. "github.com/pierrre/imageserver/cache"
-	cachetest "github.com/pierrre/imageserver/cache/_test"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/cognusion/imageserver"
+	. "github.com/cognusion/imageserver/cache"
+	cachetest "github.com/cognusion/imageserver/cache/_test"
+	"github.com/cognusion/imageserver/testdata"
 )
 
 var _ Cache = &IgnoreError{}

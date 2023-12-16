@@ -1,4 +1,4 @@
-module github.com/pierrre/imageserver
+module github.com/cognusion/imageserver
 
 go 1.20
 

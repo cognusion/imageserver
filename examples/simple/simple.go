@@ -4,16 +4,16 @@ package main
 import (
 	"net/http"
 
-	"github.com/pierrre/imageserver"
-	imageserver_http "github.com/pierrre/imageserver/http"
-	imageserver_http_gift "github.com/pierrre/imageserver/http/gift"
-	imageserver_http_image "github.com/pierrre/imageserver/http/image"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	_ "github.com/pierrre/imageserver/image/gif"
-	imageserver_image_gift "github.com/pierrre/imageserver/image/gift"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	_ "github.com/pierrre/imageserver/image/png"
-	imageserver_testdata "github.com/pierrre/imageserver/testdata"
+	"github.com/cognusion/imageserver"
+	imageserver_http "github.com/cognusion/imageserver/http"
+	imageserver_http_gift "github.com/cognusion/imageserver/http/gift"
+	imageserver_http_image "github.com/cognusion/imageserver/http/image"
+	imageserver_image "github.com/cognusion/imageserver/image"
+	_ "github.com/cognusion/imageserver/image/gif"
+	imageserver_image_gift "github.com/cognusion/imageserver/image/gift"
+	_ "github.com/cognusion/imageserver/image/jpeg"
+	_ "github.com/cognusion/imageserver/image/png"
+	imageserver_testdata "github.com/cognusion/imageserver/testdata"
 )
 
 func main() {

@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/pierrre/compare"
-	"github.com/pierrre/imageserver"
-	imageserver_http "github.com/pierrre/imageserver/http"
+	"github.com/cognusion/imageserver"
+	imageserver_http "github.com/cognusion/imageserver/http"
 )
 
 var _ imageserver_http.Parser = &Parser{}

@@ -2,7 +2,7 @@
 package cache
 
 import (
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 // Cache represents an Image cache.

@@ -5,7 +5,7 @@ import (
 	"image"
 	"testing"
 
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 var _ Provider = ProviderFunc(nil)

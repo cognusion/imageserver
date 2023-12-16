@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pierrre/imageserver"
+	"github.com/cognusion/imageserver"
 )
 
 const (
