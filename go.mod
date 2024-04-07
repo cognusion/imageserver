@@ -16,7 +16,7 @@ require (
 	github.com/pierrre/githubhook v1.0.0
 	github.com/pierrre/imageutil v1.0.0
 	github.com/pierrre/lrucache v0.0.0-20150302143820-f5fef5733804
-	golang.org/x/image v0.14.0
+	golang.org/x/image v0.15.0
 )
 
 require (
@@ -33,7 +33,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
-	golang.org/x/net v0.19.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/net v0.24.0 // indirect
+	golang.org/x/sys v0.19.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
