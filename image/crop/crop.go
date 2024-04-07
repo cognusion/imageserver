@@ -13,10 +13,10 @@ const param = "crop"
 // Processor is a imageserver/image.Processor implementation that allows to crop Image.
 //
 // All params are extracted from the "crop" node param and are mandatory:
-//  - min_x: top-left X
-//  - min_y: top-left Y
-//  - max_x: bottom-right X
-//  - max_y: bottom-right Y
+//   - min_x: top-left X
+//   - min_y: top-left Y
+//   - max_x: bottom-right X
+//   - max_y: bottom-right Y
 type Processor struct{}
 
 // Process implements imageserver/image.Processor.
@@ -51,19 +51,19 @@ func (prc *Processor) getBounds(params imageserver.Params) (image.Rectangle, err
 	var err error
 	bds.Min.X, err = params.GetInt("min_x")
 	if err != nil {
-		return image.ZR, err
+		return image.Rectangle{}, err
 	}
 	bds.Min.Y, err = params.GetInt("min_y")
 	if err != nil {
-		return image.ZR, err
+		return image.Rectangle{}, err
 	}
 	bds.Max.X, err = params.GetInt("max_x")
 	if err != nil {
-		return image.ZR, err
+		return image.Rectangle{}, err
 	}
 	bds.Max.Y, err = params.GetInt("max_y")
 	if err != nil {
-		return image.ZR, err
+		return image.Rectangle{}, err
 	}
 	return bds, nil
 }
