@@ -33,7 +33,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
-	golang.org/x/net v0.24.0 // indirect
-	golang.org/x/sys v0.19.0 // indirect
+	golang.org/x/net v0.34.0 // indirect
+	golang.org/x/sys v0.29.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
