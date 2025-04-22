@@ -1,6 +1,8 @@
 module github.com/cognusion/imageserver
 
-go 1.20
+go 1.23.0
+
+toolchain go1.24.2
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.24.0
@@ -16,7 +18,7 @@ require (
 	github.com/pierrre/githubhook v1.0.0
 	github.com/pierrre/imageutil v1.0.0
 	github.com/pierrre/lrucache v0.0.0-20150302143820-f5fef5733804
-	golang.org/x/image v0.15.0
+	golang.org/x/image v0.26.0
 )
 
 require (
